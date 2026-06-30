@@ -1,0 +1,7 @@
+discord.py>=2.7
+edge-tts
+gTTS
+PyNaCl
+SQLAlchemy[asyncio]>=2.0
+aiosqlite
+python-dotenv

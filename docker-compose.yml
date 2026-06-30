@@ -1,0 +1,10 @@
+services:
+  tts-bot:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    volumes:
+      - tts-data:/app/data
+
+volumes:
+  tts-data:
